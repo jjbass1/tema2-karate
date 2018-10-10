@@ -109,7 +109,7 @@ figure:not(.logo) {
     font-weight: bold;
 }
 
-.alt-text .logo{
+.alt-text{
     text-align: center;
 }
 
@@ -137,7 +137,7 @@ figure:not(.logo) {
 
 
 
-.Intro .linje {
+.Intro {
     text-align: center;
     font-size: x-large;
     padding: 20px;
@@ -157,7 +157,7 @@ figure:not(.logo) {
 
 .grid{
     display: grid;
-    grid-rows: 1fr 1fr 1fr;
+
     grid-gap: 1em;
     padding: 10px;
 }
@@ -170,8 +170,9 @@ figure:not(.logo) {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 1em;
-        font-size: x-large;
+        font-size: large;
         text-align: center;
+        justify-content: space-around;
 }
 
 .event1{
